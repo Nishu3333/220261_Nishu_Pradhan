@@ -5,9 +5,212 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td,th{
+            padding: 20px;
+        }
+        table {
+    margin-right: 25%;
+    margin-left: 25%;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 5px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  caption{
+    font-size: 40px;
+  }
+    </style>
 </head>
 <body>
     <h1>This is H1 tag</h1>
-    <p>This is paragraph</p>
+    <p style="color:aqua; "></p> This is p tag
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank">link</a>
+    </p>
+    <img src="https://api.schoolworkspro.com/uploads/contents/1623683588039_1623683593846.png">
+    <ul style="list-style-type: square;">
+        <li>football</li>
+        <li>basketball</li>
+    </ul>
+    <ol type="a">
+        <li>football</li>
+        <li>basketball</li>
+    </ol>
+    <table>
+        <caption>
+            This is a sample table
+        </caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nishu</td>
+                <td>2nd Sem</td>
+            </tr>
+            <tr>
+                <td>Riwaj</td>
+                <td>Teacher</td>
+            </tr>
+            <tr>
+                <td>Jenisha</td>
+                <td>2nd sem</td>
+            </tr>
+            <tr>
+                <td>Emesh</td>
+                <td>2nd sem</td>
+            </tr>
+            <tr>
+                <td>Prapti</td>
+                <td>2nd sem</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>
+            This is sample table
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Class</th>
+                <th rowspan="2">Roll</th>
+                <th rowspan="2">Phone</th>
+                <th rowspan="2">Email</th>
+                <th rowspan="2">Gender</th>
+                <th colspan="4">Subjects</th>
+                <th rowspan="2">points</th>
+            </tr>
+            <tr>
+                <th>Math</th>
+                <th>English</th>
+                <th>Science</th>
+                <th>Computer</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Rajan karki</td>
+                    <td>10</td>
+                    <td>1</td>
+                    <td>98xxxxxx</td>
+                    <td>dummy@gmail.com</td>
+                    <td>male</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>yes</td>
+                    <td>No</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Rajan karki</td>
+                    <td>10</td>
+                    <td>2</td>
+                    <td>98xxxxxx</td>
+                    <td>dummy@gmail.com</td>
+                    <td>Male</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Binita kc</td>
+                    <td>10</td>
+                    <td>3</td>
+                    <td>98xxxxxx</td>
+                    <td>dummy@gmail.com</td>
+                    <td>Female</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Jenisha karki</td>
+                    <td>10</td>
+                    <td>4</td>
+                    <td>98xxxxxx</td>
+                    <td>dummy@gmail.com</td>
+                    <td>Female</td>
+                    <td>yes</td>
+                    <td>yes</td>
+                    <td>yes</td>
+                    <td>Yes</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Bimala Gharti</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>98xxxxxx</td>
+                    <td>abc@gmail.com</td>
+                    <td>Female</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>60</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="10">Total</th>
+                <th>50</th>
+            </tfoot>
+        </thead>
+    </table>
+
+    <table>
+        <caption>
+            Favorite and Least Favorite Things
+        </caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th colspan="2"></th>
+                <th colspan="2">Bob</th>
+                <th colspan="2">Alice</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Favorite</th>
+                <th>color</th>
+                <th>red</th>
+                <td>Green</td>
+            </tr>
+            <tr>
+                <th>subject</th>
+                <th>math</th>
+                <th>English</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Least Favorite</th>
+                <th>color</th>
+                <th>Yellow</th>
+                <th>Purple</th>
+            </tr>
+            <tr>
+                <th>subject</th>
+                <th>science</th>
+                <th>nepali</th>
+            </tr>
+       
+        </thead>
+        
+    </table>
 </body>
 </html>
