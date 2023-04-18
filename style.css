@@ -1,0 +1,71 @@
+.third{
+    color: brown;
+}
+p{
+    color: blue;
+}
+#second{
+    color: red;
+}
+input[type="text"]{
+    width: 150px;
+display: block;
+margin-bottom: 10px;
+background-color: red;
+}
+input[type="button"] {
+width: 120px;
+margin-left: 35px;
+display: block;
+}
+h1 ~ h2{
+    background-color: orange;
+    color: white;
+}
+div.red{
+    color: blue !important;
+}
+div.red{
+    color: red;
+}
+#p-red{
+    color: green;
+}
+.box {
+    margin: 10px; 
+    }
+    .box { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+.box{
+    border: 1px solid black;
+}
+.box{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+}
+.box{
+    padding: 10px;
+}
+.box{
+    padding:10px 20px 10px 20px;
+
+}
+.box {
+    width: 200px;
+    height: 100px;
+    }
+.block-element{
+    display:block;
+    margin: 10px;
+    padding: 10px;
+}
+.inline-element{
+    display: inline;
+    border: 10px;
+}
+    
